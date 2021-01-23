@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: purple;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo{
+    margin-top: -5.5rem;
+    padding: 2.9rem;
+    
+}
+
+main h2 {
+    font-weight: 400;
+    margin-bottom: 3rem;
+    
+}
+
+main.container {
+   background: white;
+   max-width: 500px; 
+   min-width: 300px; 
+   min-height: 40vh;
+   border-radius: 0.5rem; 
+   padding: 2rem;
+}
+
+.input-field{
+    position: relative;
+}
+
+.input-field input{
+  min-width: 10vw;
+  outline: none;
+  margin: 0 0 2rem;
+  font-weight: normal;
+}
+
+form input[type="submit"]{
+    padding: 0.7rem 0 0.7rem;
+    min-width: 20rem;
+    max-width: 50rem;
+    border-radius: 0.5rem;
+    color: white;
+    background: purple;
+    cursor: pointer;
+}
+
+
